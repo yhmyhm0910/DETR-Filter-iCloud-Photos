@@ -103,7 +103,7 @@ function Login() {
         justifyContent: 'center', 
         alignItems: 'center', 
         margin: '5vh'}}>
-            <h1 style={{display: 'inline-block'}}>Intelligently Forward iCloud Images to Dropbox</h1>
+            <h1 style={{display: 'inline-block'}}>Delete iCloud Photos with DETR Model Filter</h1>
             <h4 style={{display: 'inline-block'}}>Input Apple ID here.</h4>
         </div>
         

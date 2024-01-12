@@ -53,10 +53,8 @@ app.post('/download', (req: Request, res: Response) => {
 
   // This is to download to public/img_from_iCloud
   const scriptPath = 'api/iCloud_part/download_from_iCloud.py'
-  const scriptArgs = [loginInfo.startDate, loginInfo.endDate, loginInfo.email, loginInfo.password]
+  const scriptArgs = [loginInfo.startDate, loginInfo.endDate, loginInfo.email, loginInfo.password, loginInfo.auth_code]
   const pyShell = new PythonShell(scriptPath, { args: scriptArgs })
-  
-  pyShell.send(loginInfo.auth_code)
 
   const token = jwt.sign({startDate: loginInfo.startDate, endDate: loginInfo.endDate}, secretKey, { expiresIn: '1h' });
   console.log(token)
