@@ -55,7 +55,7 @@ This project copies wanted photos and deletes unwanted photos from iCloud to a l
 8. Follow the instructions on the web UI. Wanted images will finally be stored at both `/server/saved_images` locally and iCloud.
 
 ## Demo
-The video demo can be found [here](https://jerryyip.net).
+The video demo can be found [here](https://jerryyip.net/#DETR-Filter-iCloud-Photos).
 
 ## System Architecture
 1. **Local Server**
